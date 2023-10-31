@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: white;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.body {
+  overflow-x: hidden;
+}
+
+
+hr {
+  border-color: gray;
+}
+
+/* .navbar {
+  background-color: #A6B1E1;
+} */
+
+.navbar {
+  background-color: #a6b1e1;
+}
+.btn-primary {
+  background-color:#a6b1e1 !important;
+}
+
+.btn-primary:hover {
+  background-color: #8f9dd8 !important;
+}
+
+.btn {
+  border-radius: 25px;
+  border-color: transparent;
+  color: black;
+}
+
+.collapse {
+  width: 91.6666667% !important;
+  background-color: #424874 !important;
+  height: 150% !important;
+  color: white;
+}
+.collapse-content {
+  width: 100% !important;
+  min-width: 600px !important;
+}
+
+.chat-bubble {
+  background-color: #424874; 
+}
+.chat-bubble:hover {
+  animation: woo 1s 1;
+}
+
+@keyframes woo {
+  0% {transform: scale(1)}
+  25% {transform: scale(1.15)}
+  100% {transform: scale(1)}
+}
+
+.card {
+  background-color: #d5daed;
+}
+.card:hover {
+  transform: scale(1.05);
 }
